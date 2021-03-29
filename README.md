@@ -10,5 +10,8 @@ Dado el código presentado en el repositorio, refactorizar usando las técnicas 
 
 ## Evaluation criteria ##
 
-| Criteria | Percentage |
-| -------- | ---------- |
+| Criteria                                                                      | Percentage |
+| ----------------------------------------------------------------------------- | ---------- |
+| Las pruebas unitarias no se ven afectadas y corren los test de forma exitosa. | 30.0 %     |
+| Refactoriza teniendo en cuenta técnicas de refactorización                    | 40.0 %     |
+| Identificar los problemas y aplicar un código limpio                          | 30.0 %     |
