@@ -1,3 +1,4 @@
+package co.com.sofka.app;
 
 /**
  * A reloader for projects that are no longer "live."  Project details and data

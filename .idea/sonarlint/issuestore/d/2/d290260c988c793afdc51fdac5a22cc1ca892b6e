@@ -1,0 +1,7 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Èžù½ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(é–ÿ¿
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Æù‰íÿÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¿¬†W
+c
+java:S1192"MDefine a constant instead of duplicating this literal "neverUpdated" 3 times.(°ì‹Ù

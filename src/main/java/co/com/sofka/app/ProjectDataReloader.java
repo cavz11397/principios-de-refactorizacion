@@ -1,3 +1,4 @@
+package co.com.sofka.app;
 
 import java.util.Date;
 
@@ -183,23 +184,23 @@ public abstract class ProjectDataReloader {
         System.out.println();
     }
 
-    public Long substraction(Long num1, Long num2){
+    public static Long substraction(Long num1, Long num2){
         return (num1-num2);
     }
 
-    public boolean modulo(int num1, int num2,int num3){
+    public static boolean modulo(int num1, int num2,int num3){
         return ((num1%num2) == num3);
     }
 
-    public boolean equalsNumber(Long num1, Long num2){
+    public static boolean equalsNumber(Long num1, Long num2){
         return (num1==num2);
     }
 
-    public boolean lessNumber(Long num1, Long num2){
+    public static boolean lessNumber(Long num1, Long num2){
         return (num1<num2);
     }
 
-    public boolean greaterNumber(Long num1, Long num2){
+    public static boolean greaterNumber(Long num1, Long num2){
         return (num1>num2);
     }
 

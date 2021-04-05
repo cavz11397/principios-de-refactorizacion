@@ -1,0 +1,29 @@
+
+k	java:S100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä‰Ç8ò˜ìı‰/
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ø‰Çºøÿÿÿÿ8ö¦À•Š/
+j
+java:S1450"URemove the "thread" field and declare it as a local variable in the relevant methods.(â£Ÿ4
+F	java:S108ë")Either remove or fill this block of code.(ä ¹€8Ó”À•Š/
+{	java:S135Ï"YReduce the total number of break and continue statements in this loop to use at most one.(Î§Ëÿÿÿÿÿ8¦¢¬”Š/
+[	java:S106·"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ñ¨îı‰/
+e
+java:S2259è"GA "NullPointerException" could be thrown; "reloader1" is nullable here.(éãçì8Ó”À•Š/
+U	java:S106®"9Replace this use of System.out or System.err by a logger.(ÀÂ¢U8ğ¥Öı‰/
+U	java:S106g"9Replace this use of System.out or System.err by a logger.(Ó¯–Ş8ğ¥Öı‰/
+i
+java:S2142Ù"FEither re-interrupt this method or rethrow the "InterruptedException".(è®ã¶øÿÿÿÿ8Ó”À•Š/
+W
+java:S4973Ã"9Use the "equals" method if value comparison was intended.(— µ8‘¯é•Š/
+[	java:S106³"9Replace this use of System.out or System.err by a logger.(¥§çüÿÿÿÿ8ñ¨îı‰/
+e
+java:S2259í"GA "NullPointerException" could be thrown; "reloader2" is nullable here.(”¸«»8Ó”À•Š/
+0
+java:S1220""Move this file to a named package.
+[	java:S106â"9Replace this use of System.out or System.err by a logger.(ôÙ‡éùÿÿÿÿ8Ó”À•Š/
+d
+java:S2142ğ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ó”À•Š/
+d
+java:S2142ë"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ó”À•Š/
+[	java:S106µ"9Replace this use of System.out or System.err by a logger.(†°Øùÿÿÿÿ8ñ¨îı‰/
+F	java:S108ğ")Either remove or fill this block of code.(ä ¹€8Ó”À•Š/
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(àÇì¡øÿÿÿÿ
