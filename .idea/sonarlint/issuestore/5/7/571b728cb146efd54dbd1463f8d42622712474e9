@@ -1,24 +1,24 @@
 
-N
-java:S5967",Remove one of these conflicting annotations.(èµÿüÿÿÿÿ8œÕû˜Š/
-I
-java:S5967<",Remove one of these conflicting annotations.(øÄ¬š8Á±¸Š/
-;
-java:S5786/"Remove this 'public' modifier.(×“¬Ê8ºØ¹Š/
-I
-java:S5967"",Remove one of these conflicting annotations.(ÒœÃı8ªËÅ™Š/
-@
-java:S5786"Remove this 'public' modifier.(èµÿüÿÿÿÿ8œÕû˜Š/
 I
 java:S5967/",Remove one of these conflicting annotations.(×“¬Ê8Ñ…¸Š/
 @
-java:S5786I"Remove this 'public' modifier.(Òû—Àúÿÿÿÿ8è™ÎŠ/
+java:S5786"Remove this 'public' modifier.(èµÿüÿÿÿÿ8œÕû˜Š/
 ;
 java:S5786
 "Remove this 'public' modifier.(ïÕ—¼8œÕû˜Š/
 ;
-java:S5786<"Remove this 'public' modifier.(øÄ¬š8Ì™ÌŠ/
-;
 java:S5786""Remove this 'public' modifier.(ÒœÃı8ˆÁÆ™Š/
 N
+java:S5967",Remove one of these conflicting annotations.(èµÿüÿÿÿÿ8œÕû˜Š/
+N
 java:S5967I",Remove one of these conflicting annotations.(Òû—Àúÿÿÿÿ8Á±¸Š/
+I
+java:S5967"",Remove one of these conflicting annotations.(ÒœÃı8ªËÅ™Š/
+I
+java:S5967<",Remove one of these conflicting annotations.(øÄ¬š8Á±¸Š/
+;
+java:S5786/"Remove this 'public' modifier.(×“¬Ê8ºØ¹Š/
+@
+java:S5786I"Remove this 'public' modifier.(Òû—Àúÿÿÿÿ8è™ÎŠ/
+;
+java:S5786<"Remove this 'public' modifier.(øÄ¬š8Ì™ÌŠ/

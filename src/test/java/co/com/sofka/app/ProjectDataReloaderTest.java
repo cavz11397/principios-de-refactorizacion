@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ProjectDataReloaderTest {
 
-    @Test
+    //@Test
     @DisplayName("Testing varias restas")
     @ParameterizedTest(name = "{0} - {1} = {2}")
     @CsvSource({
@@ -22,7 +22,7 @@ public class ProjectDataReloaderTest {
         assertEquals(expectedResult, ProjectDataReloader.substraction(first, second));
     }
 
-    @Test
+    //@Test
     @DisplayName("Testing operador %")
     @ParameterizedTest(name = "{0} % {1} == {2}")
     @CsvSource({
@@ -35,7 +35,7 @@ public class ProjectDataReloaderTest {
         assertEquals(expectedResult, ProjectDataReloader.modulo(first.intValue(), second.intValue(),third.intValue()));
     }
 
-    @Test
+    //@Test
     @DisplayName("Testing igualdad de numeros")
     @ParameterizedTest(name = "{0} == {1}")
     @CsvSource({
@@ -48,7 +48,7 @@ public class ProjectDataReloaderTest {
         assertEquals(expectedResult, ProjectDataReloader.equalsNumber(first, second));
     }
 
-    @Test
+    //@Test
     @DisplayName("Testing comparacion menor")
     @ParameterizedTest(name = "{0} < {1}")
     @CsvSource({
@@ -61,7 +61,7 @@ public class ProjectDataReloaderTest {
         assertEquals(expectedResult, ProjectDataReloader.lessNumber(first, second));
     }
 
-    @Test
+    //@Test
     @DisplayName("Testing comparacion mayor")
     @ParameterizedTest(name = "{0} > {1}")
     @CsvSource({

@@ -1,27 +1,27 @@
 
-N	java:S106¯"9Replace this use of System.out or System.err by a logger.(ÀÂ¢U
-]
-java:S2142ñ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+t	java:S135Ğ"YReduce the total number of break and continue statements in this loop to use at most one.(Î§Ëÿÿÿÿÿ
 j
 java:S1450 "URemove the "thread" field and declare it as a local variable in the relevant methods.(â£Ÿ4
 N	java:S106h"9Replace this use of System.out or System.err by a logger.(Ó¯–Ş
-d	java:S100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä‰Ç
-^
-java:S2259î"GA "NullPointerException" could be thrown; "reloader2" is nullable here.(”¸«»
-T	java:S106¶"9Replace this use of System.out or System.err by a logger.(†°Øùÿÿÿÿ
-?	java:S108ñ")Either remove or fill this block of code.(ä ¹€
-T	java:S106ã"9Replace this use of System.out or System.err by a logger.(ôÙ‡éùÿÿÿÿ
-]
-java:S2142ì"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(ø‰Çºøÿÿÿÿ
+T	java:S106¸"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
 P
 java:S4973Ä"9Use the "equals" method if value comparison was intended.(— µ
+d	java:S100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä‰Ç
+]
+java:S2142ñ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+^
+java:S2259î"GA "NullPointerException" could be thrown; "reloader2" is nullable here.(”¸«»
+]
+java:S2142ì"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+?	java:S108ì")Either remove or fill this block of code.(ä ¹€
+N	java:S106¯"9Replace this use of System.out or System.err by a logger.(ÀÂ¢U
 ^
 java:S2259é"GA "NullPointerException" could be thrown; "reloader1" is nullable here.(éãçì
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(àÇì¡øÿÿÿÿ
+?	java:S108ñ")Either remove or fill this block of code.(ä ¹€
+T	java:S106´"9Replace this use of System.out or System.err by a logger.(¥§çüÿÿÿÿ
 b
 java:S2142Ú"FEither re-interrupt this method or rethrow the "InterruptedException".(è®ã¶øÿÿÿÿ
-S	java:S106Z"9Replace this use of System.out or System.err by a logger.(ø‰Çºøÿÿÿÿ
-T	java:S106´"9Replace this use of System.out or System.err by a logger.(¥§çüÿÿÿÿ
-S	java:S106F"9Replace this use of System.out or System.err by a logger.(àÇì¡øÿÿÿÿ
-T	java:S106¸"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-?	java:S108ì")Either remove or fill this block of code.(ä ¹€
-t	java:S135Ğ"YReduce the total number of break and continue statements in this loop to use at most one.(Î§Ëÿÿÿÿÿ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(†°Øùÿÿÿÿ
+T	java:S106ã"9Replace this use of System.out or System.err by a logger.(ôÙ‡éùÿÿÿÿ

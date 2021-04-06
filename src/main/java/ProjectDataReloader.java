@@ -96,7 +96,7 @@ public abstract class ProjectDataReloader {
 
                     // sleep until next fetch
                     if (lessNumber(timeUsedForLastReload,RELOAD_PERIOD)) {
-                        segundoCiclo(substraction(RELOAD_PERIOD,timeUsedForLastReload));
+                        secondCycle(substraction(RELOAD_PERIOD,timeUsedForLastReload));
                     }
                     reloadsCounter++;
                 }
@@ -108,7 +108,7 @@ public abstract class ProjectDataReloader {
     }
     
     protected void loadProjectDetails() {
-        mensajes("Loading project details for project ","(Talking to database and updating our project-related objects.)");
+        message("Loading project details for project ","(Talking to database and updating our project-related objects.)");
         //this could be a lot of lines of code and involve collaborators, helpers, etc
         //...
         //...
@@ -132,7 +132,7 @@ public abstract class ProjectDataReloader {
     }
     
     protected void loadLastUpdateTime() {
-        mensajes("Loading last update time for project ","(Checking the database to see when the data was last refreshed)");
+        message("Loading last update time for project ","(Checking the database to see when the data was last refreshed)");
         // this might also be a lot of lines of code
         //...
         //...
@@ -152,7 +152,7 @@ public abstract class ProjectDataReloader {
     }
     
     protected void loadLoginStatistics() {
-        mensajes("Loading login statistics for project ","(Talking to our login server via http request)");
+        message("Loading login statistics for project ","(Talking to our login server via http request)");
         // This might involve other collaborators/helpers to make the http request and 
         // handle the response.
         //...
@@ -203,7 +203,7 @@ public abstract class ProjectDataReloader {
         return (num1>num2);
     }
 
-    public void segundoCiclo(Long timeLeftToSleep){
+    public void secondCycle(Long timeLeftToSleep){
         while (greaterNumber(timeLeftToSleep,0L)) {
             // check the termination flag
             synchronized (ProjectDataReloader.this) {
@@ -222,23 +222,32 @@ public abstract class ProjectDataReloader {
         }
     }
 
-    public void mensajes(String cadena1, String cadena2){
+    public void message(String cadena1, String cadena2){
         System.out.println(cadena1+project.getName()+"\n"+cadena2);
     }
 
+    public static ProjectDataReloader projectStatic(String name){
+        return getReloaderForType(new Project(name, ProjectType.STATIC));
+    }
+
+    public static ProjectDataReloader projectLive(String name){
+        return getReloaderForType(new Project(name, ProjectType.LIVE));
+    }
+
+    public static void sleep(Long num){
+        try {
+            Thread.sleep(num);
+        } catch (InterruptedException e) {
+        }
+    }
+
     public static void main(String[] args) {
-        ProjectDataReloader reloader1 = getReloaderForType(new Project("project1", ProjectType.STATIC));
-        ProjectDataReloader reloader2 = getReloaderForType(new Project("project2", ProjectType.LIVE));
+        ProjectDataReloader reloader1 = projectStatic("project1"); //getReloaderForType(new Project("project1", ProjectType.STATIC));
+        ProjectDataReloader reloader2 = projectLive("project2");//getReloaderForType(new Project("project2", ProjectType.LIVE));
         reloader1.start();
-        try {
-            Thread.sleep(SLEEPING_PERIOD);
-        } catch (InterruptedException e) {
-        }
+        sleep(SLEEPING_PERIOD);
         reloader2.start();
-        try {
-            Thread.sleep(180000);
-        } catch (InterruptedException e) {
-        }
+        sleep(180000l);
         reloader1.stop();
         reloader2.stop();
     }
